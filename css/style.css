@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+main {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cloak {
+    background-color: aliceblue;
+    width: 600px;
+    height: 600px;    
+    border-radius: 600px;
+    border: 15px solid #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.number1 {
+    transform: rotate(30deg);
+}
+
+.number1 > span {
+    position: absolute;
+    transform: rotate(-30deg);
+}
+
+.number2 {
+    transform: rotate(60deg);
+}
+
+.number2 > span {
+    position: absolute;
+    transform: rotate(-60deg);
+}
+
+.number3 {
+    transform: rotate(90deg);
+}
+
+.number3 > span {
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.number4 {
+    transform: rotate(120deg);
+}
+
+.number4 > span {
+    position: absolute;
+    transform: rotate(-120deg);
+}
+
+.number5 {
+    transform: rotate(150deg);
+}   
+
+.number5 > span {
+    position: absolute;
+    transform: rotate(-150deg);
+}
+
+.number6 {
+    transform: rotate(180deg);
+}
+
+.number6 > span {
+    position: absolute;
+    transform: rotate(-180deg);
+}
+
+.number7 {
+    transform: rotate(210deg);
+}
+
+.number7 > span {
+    position: absolute;
+    transform: rotate(-210deg);
+}
+
+.number8 {
+    transform: rotate(240deg);
+}
+
+.number8 > span {
+    position: absolute;
+    transform: rotate(-240deg);
+}
+
+.number9 {
+    transform: rotate(270deg);
+}
+
+.number9 > span {
+    position: absolute;
+    transform: rotate(-270deg);
+}
+
+.number10 {
+    transform: rotate(300deg);
+}
+
+.number10 > span {
+    position: absolute;
+    transform: rotate(-300deg);
+}
+
+.number11 {
+    transform: rotate(330deg);
+}
+
+.number11 > span {
+    position: absolute;
+    transform: rotate(-330deg);
+}
+
+.number12 {
+    transform: rotate(360deg);
+}
+
+.number12 > span {
+    position: absolute;
+    transform: rotate(-360deg);
+}
+
+.seconds {
+    width: 5px;
+    height: 240px;
+    position: absolute;
+    background-color: firebrick;
+    border-radius: 5px;
+    transform-origin: bottom center;
+}
+
+.minutes {
+    width: 7.5px;
+    height: 210px;
+    position: absolute;
+    background-color: #333;
+    border-radius: 7.5px;
+    transform-origin: bottom center;
+}
+
+.hours {
+    width: 10px;
+    height: 150px;
+    position: absolute;
+    background-color: #333;
+    border-radius: 10px;
+    transform-origin: bottom center;
+}
+
+.center {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: firebrick;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .cloak {
+        width: 350px;
+        height: 350px;
+    }
+
+    .seconds {
+        height: 120px;
+    }
+
+    .minutes {
+        height: 90px;
+    }
+
+    .hours {
+        height: 60px;
+    }
+}
